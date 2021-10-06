@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    background-color: pink;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    background-image: url("imagem/fundo.png");
+    
+    
+}
+ul{
+  list-style: none;  
+}    
+
+
+#Botao1,
+#inicio,
+#qtd,
+#fim,
+#lista,
+#titulo
+{
+    color: blue;
+    margin-left: 25%;
+    margin-right:30%;
+    width: 50%;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: navajowhite;
+    font-style: oblique;
+    font-weight: bold;
+}
+#Botao1{
+    background-color: navy;
+    color: navajowhite;
+}
+#Botao1:hover{
+    color: blue;
+    background-color: navajowhite;
+    cursor: pointer;
+}
