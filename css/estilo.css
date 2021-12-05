@@ -1,17 +1,18 @@
+
 body {
     height: 100%;
     background-color: pink;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right:25%;
-    width: 50%;
-    background-image: url("imagem/fundo.png");
-    
+    width: 100%;
+    background-image: url("../imagem/fundo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+  
     
 }
 ul{
   list-style: none;  
 }    
+
 
 
 #Botao1,
@@ -24,8 +25,8 @@ ul{
     color: blue;
     margin-left: 25%;
     margin-right:30%;
-    width: 50%;
-    font-size: 30px;
+    width: 25%;
+    font-size: 150%;
     border-radius: 10px;
     text-align: center;
     background-color: navajowhite;

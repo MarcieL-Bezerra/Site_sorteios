@@ -4,10 +4,10 @@ var mensagem = "";
 const sorteados =[];
 
 function sortear(){
-    var validador = document.getElementById("Botao1").innerText;
-    var qtd = document.getElementById("qtd").value;
-    var inicio = document.getElementById("inicio").value;
-    var fim = document.getElementById("fim").value;
+    let validador = document.getElementById("Botao1").innerText;
+    let qtd = document.getElementById("qtd").value;
+    let inicio = document.getElementById("inicio").value;
+    let fim = document.getElementById("fim").value;
     if (isNaN(qtd) == true || qtd == "" || isNaN(inicio) == true || inicio == "" ||
     isNaN(fim) == true || fim == ""){
         alert("Favor verificar os valores fornecidos!");
@@ -22,11 +22,11 @@ function sortear(){
                 
                 if (buscado == undefined){
                     sorteados.push(sorteio);
-                    var mensagem = (rodando+1) +"º Sorteado : " + sorteio;
+                    let mensagem = (rodando+1) +"º Sorteado : " + sorteio;
                     //alert(sorteio);
                     //localresult += '<b>Hello World!</b>';
                     
-                    var lista  = document.getElementById("lista").innerHTML;
+                    let lista  = document.getElementById("lista").innerHTML;
                     lista = lista +"<li>"+mensagem+"</li>";
             
             document.getElementById("lista").innerHTML = lista;
@@ -50,8 +50,8 @@ function sorteando(min, max) {
 }
 
 function adicionar(msg) {
-    var ing = document.getElementById("qtd").value;
-    var lista  = document.getElementById("lista").innerHTML;
+    let ing = document.getElementById("qtd").value;
+    let lista  = document.getElementById("lista").innerHTML;
     lista = lista +"<li>"+ing+"</li>";
     
     document.getElementById("lista").innerHTML = lista;
